@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main">
+    <h1>Content Management Tool</h1>
+    <div id="content">
+      <h2>Create a new post</h2>
+      <form action="/create-post" method="post">
+        <input type="text" name="title" placeholder="Title">
+        <textarea name="content" placeholder="Content"></textarea>
+        <input type="file" name="image">
+        <input type="file" name="video">
+        <input type="submit" value="Create">
+      </form>
+      <h2>View all posts</h2>
+      <ul>
+        <li>This is a post with an image</li>
+        <li>This is another post with a video</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
